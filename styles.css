@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    background-color: hwb(60 86% 4%);
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;;
+    background-color: rgb(245,240,228);
+    padding: 20px;
+    border: 5px solid;
+    border-color: rgb(189,122,56);
+    font-family: cursive;
+    margin: 40px auto;
+    height: 140px;
+    width: 500px;
+}
+
+/* The ul and a tags have the background */
+.box *{
+    background-color: rgb(207,158,96);
+    color: rgb(0, 0, 0)
+}
+
+.link {
+    padding: 10px;
+    background-color: rgb(219,182,123);
+    border: 5px solid;
+    border-color: rgb(189,122,56);
+}
+
+
+.box {
+    height: 500px;
+    width: 400px;
+    margin: 40px auto;
+    border: 5px solid;
+    border-color: rgb(189,122,56);
+    background-color: rgb(207,158,96);
+}
+
+.recipe {
+    margin: 40px auto;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 10px
+}
+
+.chicken {
+    font-size: 55px;
+}
+
+.cookie {
+    font-size: 45px;
+    padding: 5px;
+}
+
+.turkey {
+    font-size: 50px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.description {
+    padding: 10px;
+    margin: 55px auto 20px;
+    text-align: center;
+    background-color: rgb(207,158,96);
+    border: 5px solid;
+    border-color: rgb(189,122,56);
+    font-family: cursive;
+    width: 900px;
+}
+
+.sub-header {
+    padding: 5px;
+    background-color: rgb(207,158,96);
+    border: 5px solid;
+    border-color: rgb(189,122,56);
+    text-align: center;
+    font-family: cursive;
+    width: 200px;
+    margin: 20px auto 10px;
+}
+
+.recipe-list {
+    padding: 10px;
+    background-color: rgb(207,158,96);
+    width: 500px;
+    border: 5px solid;
+    border-color: rgb(189,122,56);
+    margin: 5px auto 60px;
+}
+
+.recipe-list > * {
+    background-color: rgb(207,158,96);
+    font-family: cursive;
+    padding: 3px;
+    margin-left: 30px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-color: rgb(189,122,56);
+    background-color: rgb(207,158,96);
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+}
